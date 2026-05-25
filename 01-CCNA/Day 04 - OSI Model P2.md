@@ -1,4 +1,4 @@
-# Day 03 — OSI Model P1
+# Day 04 — OSI Model P2
 **Ngày học:** 2026-05-09  
 **Nguồn:**  NEO Training Center  
 **Trạng thái:** 🟢 Học Xong (7/7 tầng)
