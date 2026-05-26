@@ -28,7 +28,7 @@
 
 ## ✅ Bài tập / Lab đã làm
 
-- 4 địa chỉ của gói tin ARP request.
+- 4 loại địa chỉ của gói tin ARP request.
 
 ## 🔗 Tài liệu tham khảo
 - Youtube: Neo Tranning Center
