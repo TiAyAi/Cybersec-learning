@@ -9,14 +9,17 @@
 - Packet delivery chủ yếu là chức năng của tầng 3 – Network layer (tầng Mạng).
 - Packet delivery có 2 kiểu chính : Same Subnet & Different Subnet
 
-## Lưu ý :  Bất kỳ loại dữ liệu nào khi gửi ra khỏi thiết bị mạng đều phải có đầy đủ 4 địa chỉ :
+## Lưu ý :  1. Bất kỳ loại dữ liệu nào khi gửi ra khỏi thiết bị mạng đều phải có đầy đủ 4 địa chỉ :
             + Source IP  _ Destination IP
             + Source Mac _ Destination Mac
+            
+##          2. Dữ liệu mạng luôn luôn là con đường 2 chiều (có hỏi thì phải nhận được phản hồi)
+##          3. Dữ liệu chiều đi và chiều về sẽ swap thông tin vị trí cho nhau           
     
 ## I.  SAME SUBNET 
-
-
-
+- ARP Table là gì ? Cơ chế hoạt động ?
+- Address Resolution Protocol Table : là bảng ánh xạ địa chỉ Mac tương ứng với địa chỉ IP, được lưu trữ trên RAM, hoạt động trên cơ chế Broadcast.
+- ARP request / ARP reply.
 
 
 ## ❓ Chỗ nào còn chưa hiểu
