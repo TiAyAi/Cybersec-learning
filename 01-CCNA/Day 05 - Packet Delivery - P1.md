@@ -28,7 +28,9 @@
 
 ## ✅ Bài tập / Lab đã làm
 
-- 4 loại địa chỉ của gói tin ARP request.
+- 4 loại địa chỉ của gói tin ARP request ?
+    Trả lời :  sẽ bao gồm :    Broadcast Mac - Mac Source - IP Destination - IP Source
+- Broadcast Mac là (địa chỉ MAC quảng bá), gửi cho tất cả thiết bị trong LAN. thường được quy định đặt là 12 chữ F (FF:FF:FF:FF:FF:FF)
 
 ## 🔗 Tài liệu tham khảo
 - Youtube: Neo Tranning Center
