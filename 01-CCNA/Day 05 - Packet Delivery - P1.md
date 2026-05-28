@@ -9,7 +9,8 @@
 - Packet delivery chủ yếu là chức năng của tầng 3 – Network layer (tầng Mạng).
 - Packet delivery có 2 kiểu chính : Same Subnet & Different Subnet
 
-## Lưu ý :  1. Bất kỳ loại dữ liệu nào khi gửi ra khỏi thiết bị mạng đều phải có đầy đủ 4 địa chỉ :
+## Lưu ý :  
+            1. Bất kỳ loại dữ liệu nào khi gửi ra khỏi thiết bị mạng đều phải có đầy đủ 4 địa chỉ :
             + Source IP  _ Destination IP
             + Source Mac _ Destination Mac
             
