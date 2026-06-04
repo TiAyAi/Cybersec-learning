@@ -7,15 +7,27 @@
  
 - Địa chỉ IPv4 gồm 4 phần cách nhau bởi dấu chấm, mỗi phần gọi là Octet ( Octet-1 . Octet-2 . Octet-3 . Octet-4 )
 - Mỗi Octet là 8bit => 1 IP address là 32bit.
+- **/24** : được gọi là  **prefix length** = số bit phần mạng
 - **Octet-1** sẽ quyết định địa chỉ IP đó thuộc lớp nào :
-  + 
+  + Lớp A :  
+  + Lớp B :
+  + Lớp C :
+  + Lớp D :
+ 
+- Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
+  + Net  : là phần cho biết IP đó thuộc **mạng nào**.
+  + Host : là phần cho biết **thiết bị nào** trong mạng đó.
+- <img width="242" height="113" alt="image" src="https://github.com/user-attachments/assets/5798cec2-2a30-4702-9829-82b87c2f320e" />
+  
+
 
 ## ❓ Chỗ nào còn chưa hiểu
 - 
 - 
 
 ## 💡 Ví dụ thực tế / cách nhớ
-- <img width="413" height="106" alt="image" src="https://github.com/user-attachments/assets/12123f3a-7cbc-402f-9dc2-e8d5dd21646d" />
+- <img width="425" height="135" alt="image" src="https://github.com/user-attachments/assets/d4973ffd-aea2-457c-88c4-0d2f7cc03531" />
+
 
 
 ## ✅ Bài tập /
