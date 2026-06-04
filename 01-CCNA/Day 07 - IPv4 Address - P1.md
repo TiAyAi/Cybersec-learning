@@ -7,7 +7,9 @@
  
 - Địa chỉ IPv4 gồm 4 phần cách nhau bởi dấu chấm, mỗi phần gọi là Octet ( Octet-1 . Octet-2 . Octet-3 . Octet-4 )
 - Mỗi Octet là 8bit => 1 IP address là 32bit.
-- **/24** : được gọi là  **prefix length** = số bit phần mạng
+- **/24** : được gọi là  **prefix length** = số bit phần mạng.
+- Ký hiệu CIDR (Ký hiệu xuyệt /) = Classless Inter-Domain Routing(Định tuyến liên tên miền không phân lớp)
+- 
 - Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
   + Net  : là phần cho biết IP đó thuộc **mạng nào**.
   + Host : là phần cho biết **thiết bị nào** trong mạng đó.
@@ -23,17 +25,10 @@
     |       E  |     `240–255` | `240.0.0.0 → 255.255.255.255` | Không dùng thông thường    | Không có        | Experimental (thử nghiệm) |
 
 
-  - Địa chỉ IP ở Lớp D được dùng để đại diện cho 1 nhóm thiết bị mạng. Công nghệ Multicast này được sử dụng nhiều nhất cho IP Tivi.
+  - Địa chỉ IP ở **Lớp D** được dùng để đại diện cho 1 nhóm thiết bị mạng. Công nghệ Multicast này được sử dụng nhiều nhất cho IP Tivi.
     Được dùng để đại diện cho các kênh truyền hình ...
 
- 
-
-
-  
-
-
 ## ❓ Chỗ nào còn chưa hiểu
-- 
 - 
 
 ## 💡 Ví dụ thực tế / cách nhớ
@@ -42,10 +37,22 @@
 
 
 ## ✅ Bài tập /
-- 
+
+- Subnet Mask là gì , phương thức hoạt động ?
+
+ + Subnet mask dùng để xác định phần nào của IP là phần mạng (Net Portion), phần nào là phần host (Host Portion), từ đó biết IP đích cùng mạng hay khác mạng.
+
+ + Subnet mask giúp tìm Network Address.
+    Cùng Network Address → gửi trực tiếp.
+    Khác Network Address → gửi qua default gateway.
+   
+ + Cơ chế tìm Network Address bằng Subnet Mask của Máy tính là:
+     * sử dụng phép AND giữa IP address và Subnet Mask  ( IP Address **AND** Subnet Mask **=** Network Address )
+  
+ + 
+
 
 ## 🔗 Tài liệu tham khảo
-- 
 
----
+-----------------------------------------------------------------------------------------------------------
 ⏱ Thời gian học hôm nay: ___ phút
