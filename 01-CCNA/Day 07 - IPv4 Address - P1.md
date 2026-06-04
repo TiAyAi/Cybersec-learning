@@ -21,7 +21,7 @@
 - Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
   + Net  : là phần cho biết IP đó thuộc **mạng nào**.
   + Host : là phần cho biết **thiết bị nào** trong mạng đó.
-- <img width="242" height="113" alt="image" src="https://github.com/user-attachments/assets/5798cec2-2a30-4702-9829-82b87c2f320e" />
+
   
 
 
