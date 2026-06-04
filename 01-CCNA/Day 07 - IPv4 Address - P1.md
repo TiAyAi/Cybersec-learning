@@ -8,6 +8,11 @@
 - Địa chỉ IPv4 gồm 4 phần cách nhau bởi dấu chấm, mỗi phần gọi là Octet ( Octet-1 . Octet-2 . Octet-3 . Octet-4 )
 - Mỗi Octet là 8bit => 1 IP address là 32bit.
 - **/24** : được gọi là  **prefix length** = số bit phần mạng
+- Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
+  + Net  : là phần cho biết IP đó thuộc **mạng nào**.
+  + Host : là phần cho biết **thiết bị nào** trong mạng đó.
+
+- 
 - **Octet-1** sẽ quyết định địa chỉ IP đó thuộc lớp nào :
     | **Lớp**  | Dải octet đầu | Dải IP                        | Subnet mask mặc định       | Prefix mặc định | Mục đích                  |
     | -------  | ------------: | ----------------------------- | -------------------------- | --------------- | ------------------------- |
@@ -17,11 +22,13 @@
     |       D  |     `224–239` | `224.0.0.0 → 239.255.255.255` | Không dùng như host thường | Không có        | Multicast (gửi nhóm)      |
     |       E  |     `240–255` | `240.0.0.0 → 255.255.255.255` | Không dùng thông thường    | Không có        | Experimental (thử nghiệm) |
 
+
+  - Địa chỉ IP ở Lớp D được dùng để đại diện cho 1 nhóm thiết bị mạng. Công nghệ Multicast này được sử dụng nhiều nhất cho IP Tivi.
+    Được dùng để đại diện cho các kênh truyền hình ...
+
  
-- Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
-  + Net  : là phần cho biết IP đó thuộc **mạng nào**.
-  + Host : là phần cho biết **thiết bị nào** trong mạng đó.
-  + 
+
+
   
 
 
