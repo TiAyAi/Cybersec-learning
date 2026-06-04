@@ -9,10 +9,14 @@
 - Mỗi Octet là 8bit => 1 IP address là 32bit.
 - **/24** : được gọi là  **prefix length** = số bit phần mạng
 - **Octet-1** sẽ quyết định địa chỉ IP đó thuộc lớp nào :
-  + Lớp A :  
-  + Lớp B :
-  + Lớp C :
-  + Lớp D :
+  + | Lớp     | Dải octet đầu | Dải IP                        | Subnet mask mặc định       | Prefix mặc định | Mục đích                  |
+    | ------- | ------------: | ----------------------------- | -------------------------- | --------------- | ------------------------- |
+    | Class A |       `1–126` | `1.0.0.0 → 126.255.255.255`   | `255.0.0.0`                | `/8`            | Mạng rất lớn              |
+    | Class B |     `128–191` | `128.0.0.0 → 191.255.255.255` | `255.255.0.0`              | `/16`           | Mạng vừa                  |
+    | Class C |     `192–223` | `192.0.0.0 → 223.255.255.255` | `255.255.255.0`            | `/24`           | Mạng nhỏ                  |
+    | Class D |     `224–239` | `224.0.0.0 → 239.255.255.255` | Không dùng như host thường | Không có        | Multicast (gửi nhóm)      |
+    | Class E |     `240–255` | `240.0.0.0 → 255.255.255.255` | Không dùng thông thường    | Không có        | Experimental (thử nghiệm) |
+
  
 - Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
   + Net  : là phần cho biết IP đó thuộc **mạng nào**.
