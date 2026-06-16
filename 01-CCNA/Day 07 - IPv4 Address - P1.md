@@ -9,7 +9,6 @@
 - Mỗi Octet là 8bit => 1 IP address là 32bit.
 - **/24** : được gọi là  **prefix length** = số bit phần mạng.
 - Ký hiệu CIDR (Ký hiệu xuyệt /) = Classless Inter-Domain Routing(Định tuyến liên tên miền không phân lớp)
-- 
 - Địa chỉ IP còn được chia 2 phần: Net và Host ( Network portion + Host portion )
   + Net  : là phần cho biết IP đó thuộc **mạng nào**.
   + Host : là phần cho biết **thiết bị nào** trong mạng đó.
@@ -29,7 +28,6 @@
     Được dùng để đại diện cho các kênh truyền hình ...
 
 ## ❓ Chỗ nào còn chưa hiểu
-- 
 
 ## 💡 Ví dụ thực tế / cách nhớ
 - <img width="425" height="135" alt="image" src="https://github.com/user-attachments/assets/d4973ffd-aea2-457c-88c4-0d2f7cc03531" />
@@ -49,8 +47,6 @@
  + Cơ chế tìm Network Address bằng Subnet Mask của Máy tính là:
      * sử dụng phép AND giữa IP address và Subnet Mask  ( IP Address **AND** Subnet Mask **=** Network Address )
   
- + 
-
 
 ## 🔗 Tài liệu tham khảo
 
